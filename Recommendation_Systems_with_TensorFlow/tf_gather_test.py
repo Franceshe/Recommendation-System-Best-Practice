@@ -4,7 +4,9 @@ import numpy as np
 import tensorflow as tf
 
 print(tf.__version__)
-# solve bug: https://stackoverflow.com/questions/64450037/tensorflow-binary-is-optimized-to-use-the-following-cpu-instructions-in-performa
+# solve tf.gather imcompatibility issue :
+# see details in https://stackoverflow.com/questions/47068709/your-cpu-supports-instructions-that-this-tensorflow-binary-was-not-compiled-to-u
+
 # Just disables the warning, doesn't enable AVX/FMA
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
