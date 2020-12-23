@@ -8,3 +8,8 @@
 ### Visualization:
 * [Embedding Projector](http://projector.tensorflow.org/)
 ... [code and data](https://github.com/tensorflow/embedding-projector-standalone/tree/master/oss_data)
+
+
+
+### Assited library:
+* [Altair: Declarative Visualization in Python](https://altair-viz.github.io/)
